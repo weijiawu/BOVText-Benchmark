@@ -38,6 +38,7 @@ gt_[frame_id], where frame_id refers to the index of the video frame in the vide
 
 In a JSON file, each gt_[frame_id] corresponds to a list, where each line in the list correspond to one word in the image and gives its bounding box coordinates, transcription, text type(caption or scene text) and tracking ID, in the following format:
 
+```
 >{
 >
 >“frame_1”:  
@@ -57,6 +58,7 @@ In a JSON file, each gt_[frame_id] corresponds to a list, where each line in the
 >……
 >
 >}
+```
 
 ## Table Ranking
 
