@@ -1,4 +1,6 @@
-<img src="Dataset/image/logo.png" width="50%" class="aligncenter">
+<div align="center">
+  <img src="Dataset/image/logo.png" width="600"/>
+</div>
 
 # MMVText-Benchmark
 
