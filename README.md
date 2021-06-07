@@ -86,17 +86,17 @@ In a JSON file, each gt_[frame_id] corresponds to a list, where each line in the
     </thead>
     <tbody align="center">
         <tr>
-           <td><b>EAST <a href="http://cs-chan.com/doc/IJDAR2019.pdf">[paper]</a></b>+CRNN</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
-           <td>-</td>
+           <td><b><a href="https://openaccess.thecvf.com/content_cvpr_2017/html/Zhou_EAST_An_Efficient_CVPR_2017_paper.html">EAST</a></b>+<b><a href="https://ieeexplore.ieee.org/abstract/document/7801919">CRNN</a></b></td>
+           <td>-0.301</td>
+           <td>0.275</td>
+           <td>23.5</td>
+           <td>22.9</td>
+           <td>23.2</td>
+           <td>-0.835</td>
+           <td>0.173</td>
+           <td>5.3%</td>
+           <td>5.1%</td>
+           <td>5.2%</td>
 		   <td>-</td>
         </tr>
 
