@@ -14,7 +14,7 @@ Released on May 26, 2021
 ## Description
 
 We create a new large-scale benchmark dataset named **M**ultidimensional **M**ultilingual **V**ideo Text(MMVText), the first large-scale and multilingual benchmark for video text spotting in a variety of scenarios.
-
+The demo video can be found on [YouTube](https://www.youtube.com/watch?v=mS66yr1WmI4)
 There are mainly three features for MMVText:
 -  **Large-Scale**: we provide 510 videos with more than 1,000,000 frame images, four times larger than the existing largest dataset for text in videos. 
 -  **Multidimensional**:MMVText covers 30 open categories with a wide selection of various scenarios, e.g., life vlog, sports news, automatic drive, cartoon, etc. Besides, caption text and scene text are separately tagged for the two different representational meanings in the video. The former represents more theme information, and the latter is the scene information. 
