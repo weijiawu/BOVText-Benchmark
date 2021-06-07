@@ -63,6 +63,47 @@ In a JSON file, each gt_[frame_id] corresponds to a list, where each line in the
 
 ## Table Ranking
 
+#### Text Tracking performance on MMVText
+<table>
+    <thead align="center">
+       <tr>
+           <th rowspan=2>Method</th>
+		   <th colspan=5>Text Tracking Performance</th>
+		   <th colspan=5>End to End Video Text Spotting</th>
+           <th rowspan=2>Published at</th>
+        </tr>
+        <tr>
+            <th>MOTA</th>
+            <th>MOTP</th>
+            <th>ID_P</th>
+            <th>ID_R</th>
+            <th>ID_{F1}</th>
+            <th>MOTA</th>
+            <th>MOTP</th>
+            <th>ID_P</th>
+            <th>ID_R</th>
+            <th>ID_{F1}</th>
+        </tr>
+    </thead>
+    <tbody align="center">
+        <tr>
+           <td><b>EAST <a href="http://cs-chan.com/doc/IJDAR2019.pdf">[paper]+CRNN</a></b></td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+           <td>-</td>
+		   <td>-</td>
+        </tr>
+
+    </tbody>
+</table>
+
 
 
 ## Citation
