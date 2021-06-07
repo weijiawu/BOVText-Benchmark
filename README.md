@@ -11,7 +11,8 @@ Updated on June 06, 2021 (Added evaluation metric)
 
 Released on May 26, 2021
 
-# Description
+## Description
+
 We create a new large-scale benchmark dataset named **M**ultidimensional **M**ultilingual **V**ideo Text(MMVText), the first large-scale and multilingual benchmark for video text spotting in a variety of scenarios.
 
 There are mainly three features for MMVText:
@@ -20,7 +21,7 @@ There are mainly three features for MMVText:
 -  **Multilingual**:MMVText provides multilingual text annotation to promote multiple cultures live and communication.
 <img src="Dataset/image/fig1.png" width="100%" class="aligncenter">
 
-# News
+## News
 
 ## Tasks and Metrics
 The proposed MMVText support four task(text detection, recognition, tracking, spotting), but mainly includes two tasks: 
