@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="Dataset/image/logo.png" width="400"/>
+  <img src="Dataset/image/logo.png" width="500"/>
 </div>
 
 # MMVText-Benchmark
