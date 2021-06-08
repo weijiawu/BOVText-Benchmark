@@ -33,8 +33,9 @@ The proposed MMVText support four task(text detection, recognition, tracking, sp
 MOTP (Multiple Object Tracking Precision)[1], MOTA (Multiple Object Tracking Accuracy) and IDF1[3,4] as the three important metrics are used to evaluate task1 (text tracking) for MMVText.
 In particular, we make use of the publicly available py-motmetrics library (https://github.com/cheind/py-motmetrics) for the establishment of the evaluation metric. 
 
+The evluation guidance coming soon...
 
-## Ground Truth (GT) Format
+## Ground Truth (GT) Format and Downloads
 
 We create a single JSON file for each video in the dataset to store the ground truth in a structured format, following the naming convention:
 gt_[frame_id], where frame_id refers to the index of the video frame in the video
@@ -62,6 +63,10 @@ In a JSON file, each gt_[frame_id] corresponds to a list, where each line in the
 
 }
 ```
+
+
+### Downloads
+Training data and the test set can be found from Baidu Drive(TDB) or Google Drive(TDB). (coming soon ...)
 
 ## Table Ranking
 
@@ -105,7 +110,12 @@ In a JSON file, each gt_[frame_id] corresponds to a list, where each line in the
     </tbody>
 </table>
 
-
+## TodoList
+- [x] update evaluation metric
+- [ ] update data and annotation link
+- [ ] update evaluation guidance
+- [ ] update Baseline
+- [ ] ...
 
 ## Citation
 
