@@ -2,8 +2,6 @@
   <img src="logo.png" width="800"/>
 </div>
 
-# MMVText-Benchmark
-
 MMVText: A Large-Scale, Multidimensional Multilingual Dataset for Video Text Spotting
 
 
