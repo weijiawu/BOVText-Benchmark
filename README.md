@@ -2,7 +2,6 @@
   <img src="Dataset/image/logo.png" width="500"/>
 </div>
 
-# MMVText-Benchmark
 
 MMVText: A Large-Scale, Multidimensional Multilingual Dataset for Video Text Spotting
 
@@ -12,6 +11,7 @@ Updated on June 06, 2021 (Added evaluation metric)
 Released on May 26, 2021
 
 ## Description
+[YouTube](https://www.youtube.com/watch?v=mS66yr1WmI4) | [Homepage](https://weijiawu.github.io/MMVText-Benchmark/)  |  Downloads(TED) | Paper(TED) 
 
 We create a new large-scale benchmark dataset named **M**ultidimensional **M**ultilingual **V**ideo Text(MMVText), the first large-scale and multilingual benchmark for video text spotting in a variety of scenarios.
 
