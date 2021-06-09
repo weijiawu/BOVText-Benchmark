@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.png" width="500"/>
+  <img src="logo.png" width="800"/>
 </div>
 
 # MMVText-Benchmark
