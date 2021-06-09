@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="Dataset/logo.png" width="500"/>
+  <img src="logo.png" width="500"/>
 </div>
 
 # MMVText-Benchmark
@@ -21,7 +21,7 @@ There are mainly three features for MMVText:
 -  **Large-Scale**: we provide 510 videos with more than 1,000,000 frame images, four times larger than the existing largest dataset for text in videos. 
 -  **Multidimensional**:MMVText covers 30 open categories with a wide selection of various scenarios, e.g., life vlog, sports news, automatic drive, cartoon, etc. Besides, caption text and scene text are separately tagged for the two different representational meanings in the video. The former represents more theme information, and the latter is the scene information. 
 -  **Multilingual**:MMVText provides multilingual text annotation to promote multiple cultures live and communication.
-<img src="Dataset/image/fig1.png" width="100%" class="aligncenter">
+<img src="fig1_min.png" width="100%" class="aligncenter">
 
 ## News
 
