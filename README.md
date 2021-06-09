@@ -11,11 +11,10 @@ Updated on June 06, 2021 (Added evaluation metric)
 Released on May 26, 2021
 
 ## Description
-[YouTube](https://www.youtube.com/watch?v=mS66yr1WmI4) | [Homepage](https://weijiawu.github.io/MMVText-Benchmark/)  |  Downloads(TED) | Paper(TED) 
+[Demo](https://www.youtube.com/watch?v=mS66yr1WmI4) | [Homepage](https://weijiawu.github.io/MMVText-Benchmark/)  |  Downloads(TED) | Paper(TED) 
 
 We create a new large-scale benchmark dataset named **M**ultidimensional **M**ultilingual **V**ideo Text(MMVText), the first large-scale and multilingual benchmark for video text spotting in a variety of scenarios.
 
-The demo video can be found on [YouTube](https://www.youtube.com/watch?v=mS66yr1WmI4)
 
 There are mainly three features for MMVText:
 -  **Large-Scale**: we provide 510 videos with more than 1,000,000 frame images, four times larger than the existing largest dataset for text in videos. 
