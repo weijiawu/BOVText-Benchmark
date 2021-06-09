@@ -1,6 +1,8 @@
 <div align="center">
-  <img src="logo.png" width="800"/>
+  <img src="logo.jpg" width="800"/>
 </div>
+
+[YouTube Demo](https://www.youtube.com/watch?v=mS66yr1WmI4) | [Homepage](https://weijiawu.github.io/MMVText-Benchmark/)  |  [Github](https://github.com/weijiawu/MMVText-Benchmark) | Downloads(TED) | Paper(TED) 
 
 MMVText: A Large-Scale, Multidimensional Multilingual Dataset for Video Text Spotting
 
