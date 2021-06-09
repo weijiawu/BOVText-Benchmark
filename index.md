@@ -21,7 +21,7 @@ There are mainly three features for MMVText:
 -  **Large-Scale**: we provide 510 videos with more than 1,000,000 frame images, four times larger than the existing largest dataset for text in videos. 
 -  **Multidimensional**:MMVText covers 30 open categories with a wide selection of various scenarios, e.g., life vlog, sports news, automatic drive, cartoon, etc. Besides, caption text and scene text are separately tagged for the two different representational meanings in the video. The former represents more theme information, and the latter is the scene information. 
 -  **Multilingual**:MMVText provides multilingual text annotation to promote multiple cultures live and communication.
-<img src="fig1_min.png" width="100%" class="aligncenter">
+<img src="fig1_min.jpg" width="100%" class="aligncenter">
 
 ## News
 
@@ -69,46 +69,6 @@ In a JSON file, each gt_[frame_id] corresponds to a list, where each line in the
 Training data and the test set can be found from Baidu Drive(TDB) or Google Drive(TDB). (coming soon ...)
 
 ## Table Ranking
-
-<table>
-    <thead align="center">
-       <tr>
-           <th rowspan=2>Method</th>
-		   <th colspan=5>Text Tracking Performance</th>
-		   <th colspan=5>End to End Video Text Spotting</th>
-           <th rowspan=2>Published at</th>
-        </tr>
-        <tr>
-            <th>MOTA</th>
-            <th>MOTP</th>
-            <th>ID<sub>P</sub></th>
-            <th>ID<sub>R</sub></th>
-            <th>ID<sub>F1</sub></th>
-            <th>MOTA</th>
-            <th>MOTP</th>
-            <th>ID<sub>P</sub></th>
-            <th>ID<sub>R</sub></th>
-            <th>ID<sub>F1</sub</th>
-        </tr>
-    </thead>
-    <tbody align="center">
-        <tr>
-           <td><b><a href="https://openaccess.thecvf.com/content_cvpr_2017/html/Zhou_EAST_An_Efficient_CVPR_2017_paper.html">EAST</a></b>+<b><a href="https://ieeexplore.ieee.org/abstract/document/7801919">CRNN</a></b></td>
-           <td>-0.301</td>
-           <td>0.275</td>
-           <td>23.5</td>
-           <td>22.9</td>
-           <td>23.2</td>
-           <td>-0.835</td>
-           <td>0.173</td>
-           <td>5.3%</td>
-           <td>5.1%</td>
-           <td>5.2%</td>
-		   <td>-</td>
-        </tr>
-
-    </tbody>
-</table>
 
 ## TodoList
 - [x] update evaluation metric
