@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.jpg" width="500"/>
+  <img src="logo.jpg" width="600"/>
 </div>
 
 [YouTube Demo](https://www.youtube.com/watch?v=mS66yr1WmI4) | [Homepage](https://weijiawu.github.io/MMVText-Benchmark/)  |  [Github](https://github.com/weijiawu/MMVText-Benchmark) | Downloads(TED) | Paper(TED) 
