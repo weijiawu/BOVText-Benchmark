@@ -3,7 +3,7 @@
 </div>
 
 
-MMVText: A Large-Scale, Multidimensional Multilingual Dataset for Video Text Spotting
+MOVText: A Large-Scale, Multilingual Open World Dataset for Video Text Spotting
 
 
 Updated on June 06, 2021 (Added evaluation metric)
@@ -13,19 +13,19 @@ Released on May 26, 2021
 ## Description
 [YouTube Demo](https://www.youtube.com/watch?v=mS66yr1WmI4) | [Homepage](https://weijiawu.github.io/MMVText-Benchmark/)  |  Downloads(TED) | Paper(TED) 
 
-We create a new large-scale benchmark dataset named **M**ultidimensional **M**ultilingual **V**ideo Text(MMVText), the first large-scale and multilingual benchmark for video text spotting in a variety of scenarios.
+We create a new large-scale benchmark dataset named **M**ultilingual, **O**pen World **V**ideo Text(MOVText), the first large-scale and multilingual benchmark for video text spotting in a variety of scenarios.
+All data are collected from [KuaiShou](https://www.kuaishou.com/en) and [YouTube](https://www.youtube.com/)
 
-
-There are mainly three features for MMVText:
--  **Large-Scale**: we provide 510 videos with more than 1,000,000 frame images, four times larger than the existing largest dataset for text in videos. 
--  **Multidimensional**:MMVText covers 30 open categories with a wide selection of various scenarios, e.g., life vlog, sports news, automatic drive, cartoon, etc. Besides, caption text and scene text are separately tagged for the two different representational meanings in the video. The former represents more theme information, and the latter is the scene information. 
--  **Multilingual**:MMVText provides multilingual text annotation to promote multiple cultures live and communication.
+There are mainly three features for MOVText:
+-  **Large-Scale**: we provide 1,500+ videos with more than 1,500,000 frame images, four times larger than the existing largest dataset for text in videos. 
+-  **Open Scenario**:MOVText covers 30+ open categories with a wide selection of various scenarios, e.g., life vlog, sports news, automatic drive, cartoon, etc. Besides, caption text and scene text are separately tagged for the two different representational meanings in the video. The former represents more theme information, and the latter is the scene information. 
+-  **Multilingual**:MOVText provides multilingual text annotation to promote multiple cultures live and communication.
 <img src="Dataset/image/fig1.png" width="100%" class="aligncenter">
 
 ## News
 
 ## Tasks and Metrics
-The proposed MMVText support four task(text detection, recognition, tracking, spotting), but mainly includes two tasks: 
+The proposed MOVText support four task(text detection, recognition, tracking, spotting), but mainly includes two tasks: 
 -  Video Text Tracking. 
 -  End to End Text Spotting in Videos. 
 
@@ -45,18 +45,42 @@ In a JSON file, each gt_[frame_id] corresponds to a list, where each line in the
 {
 
 “frame_1”:  
-            [[x1, y1, x2, y2, x3, y3, x4, y4, “transcription1” , “text type”, “Tracking ID”],
+            [
+			{
+				"points": [x1, y1, x2, y2, x3, y3, x4, y4],
+				“tracking ID”: "1" ,
+				“transcription”: "###",
+				“category”: title/caption/scene text
+			},
 
                …
 
-            [x1, y1, x2, y2, x3, y3, x4, y4, “transcription2” , “text type”, “Tracking ID”]],
+            {
+				"points": [x1, y1, x2, y2, x3, y3, x4, y4],
+				“tracking ID”: "#" ,
+				“transcription”: "###",
+				“category”: title/caption/scene text
+			}
+			],
 
 “frame_2”:  
-            [[x1, y1, x2, y2, x3, y3, x4, y4, “transcription3” , “text type”,  “Tracking ID”],
+            [
+			{
+				"points": [x1, y1, x2, y2, x3, y3, x4, y4],
+				“tracking ID”: "1" ,
+				“transcription”: "###",
+				“category”: title/caption/scene text
+			},
 
                …
 
-            [x1, y1, x2, y2, x3, y3, x4, y4, “transcription4” , “text type”, “Tracking ID”]],
+            {
+				"points": [x1, y1, x2, y2, x3, y3, x4, y4],
+				“tracking ID”: "#" ,
+				“transcription”: "###",
+				“category”: title/caption/scene text
+			}
+			],
 
 ……
 
