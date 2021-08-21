@@ -10,6 +10,10 @@ Updated on June 06, 2021 (Added evaluation metric)
 
 Released on May 26, 2021
 
+<div align="center">
+  <img src="Dataset/image/demo1.gif" width="400"/>
+</div>
+
 ## Description
 [YouTube Demo](https://www.youtube.com/watch?v=mS66yr1WmI4) | [Homepage](https://weijiawu.github.io/MMVText-Benchmark/)  |  Downloads(TED) | Paper(TED) 
 
@@ -39,9 +43,7 @@ The transcription '###' or "#1" is special, as it is used to define text areas t
 
 The evluation guidance coming soon...
 
-<div align="center">
-  <img src="Dataset/image/demo1.gif" width="500"/>
-</div>
+
 
 ## Ground Truth (GT) Format and Downloads
 
