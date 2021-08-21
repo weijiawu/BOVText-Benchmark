@@ -3,7 +3,7 @@
 </div>
 
 
-MOVText: A Large-Scale, Multilingual Open World Dataset for Video Text Spotting
+MOVText: A Large-Scale, **M**ultilingual **O**pen World Dataset for **V**ideo Text Spotting
 
 
 Updated on June 06, 2021 (Added evaluation metric)
@@ -26,12 +26,16 @@ There are mainly three features for MOVText:
 
 ## Tasks and Metrics
 The proposed MOVText support four task(text detection, recognition, tracking, spotting), but mainly includes two tasks: 
+-  Video Frames Detection. 
+-  Video Frames Recognition. 
 -  Video Text Tracking. 
 -  End to End Text Spotting in Videos. 
 
 MOTP (Multiple Object Tracking Precision)[1], MOTA (Multiple Object Tracking Accuracy) and IDF1[3,4] as the three important metrics are used to evaluate task1 (text tracking) for MMVText.
 In particular, we make use of the publicly available py-motmetrics library (https://github.com/cheind/py-motmetrics) for the establishment of the evaluation metric. 
 
+Word recognition evaluation is case-insensitive, and accent-insensitive. 
+The transcription '###' or "#1" is special, as it is used to define text areas that are unreadable. During the evaluation, such areas will not be taken into account: a method will not be penalised if it does not detect these words, while a method that detects them will not get any better score.
 The evluation guidance coming soon...
 
 ## Ground Truth (GT) Format and Downloads
