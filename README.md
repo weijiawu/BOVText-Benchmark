@@ -36,6 +36,7 @@ In particular, we make use of the publicly available py-motmetrics library (http
 
 Word recognition evaluation is case-insensitive, and accent-insensitive. 
 The transcription '###' or "#1" is special, as it is used to define text areas that are unreadable. During the evaluation, such areas will not be taken into account: a method will not be penalised if it does not detect these words, while a method that detects them will not get any better score.
+
 The evluation guidance coming soon...
 
 ## Ground Truth (GT) Format and Downloads
