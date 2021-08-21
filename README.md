@@ -10,7 +10,7 @@ Updated on June 06, 2021 (Added evaluation metric)
 
 Released on May 26, 2021
 
-<img src="Dataset/image/demo.gif" width="400"/><img src="Dataset/image/demo1.gif" width="400"/>
+<img src="Dataset/image/demo.gif" width="400"/>  <img src="Dataset/image/demo1.gif" width="400"/>
 
 
 ## Description
