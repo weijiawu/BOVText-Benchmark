@@ -10,9 +10,8 @@ Updated on June 06, 2021 (Added evaluation metric)
 
 Released on May 26, 2021
 
-<div align="center">
-  <img src="Dataset/image/demo1.gif" width="400"/>
-</div>
+<img src="Dataset/image/demo.gif" width="400"/><img src="Dataset/image/demo1.gif" width="400"/>
+
 
 ## Description
 [YouTube Demo](https://www.youtube.com/watch?v=mS66yr1WmI4) | [Homepage](https://weijiawu.github.io/MMVText-Benchmark/)  |  Downloads(TED) | Paper(TED) 
