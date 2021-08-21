@@ -39,6 +39,10 @@ The transcription '###' or "#1" is special, as it is used to define text areas t
 
 The evluation guidance coming soon...
 
+<div align="center">
+  <img src="Dataset/image/demo1.gif" width="500"/>
+</div>
+
 ## Ground Truth (GT) Format and Downloads
 
 We create a single JSON file for each video in the dataset to store the ground truth in a structured format, following the naming convention:
