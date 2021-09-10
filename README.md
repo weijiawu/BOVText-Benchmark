@@ -17,7 +17,7 @@ Released on May 26, 2021
 [YouTube Demo](https://www.youtube.com/watch?v=mS66yr1WmI4) | [Homepage](https://weijiawu.github.io/MMVText-Benchmark/)  |  Downloads(TED) | Paper(TED) 
 
 (Note: a small part(46 videos) of training set can be found in [Baidu Cloud](https://pan.baidu.com/s/1wJDVS_fSqP0jXnVFYP4TxQ)
-password: woa8) for reference, the whole dataset would be released before October 15.)
+password: woa8) for reference, the whole dataset is currently under merging and would be released before October 15.)
 
 We create a new large-scale benchmark dataset named **M**ultilingual, **O**pen World **V**ideo Text(MOVText), the first large-scale and multilingual benchmark for video text spotting in a variety of scenarios.
 All data are collected from [KuaiShou](https://www.kuaishou.com/en) and [YouTube](https://www.youtube.com/)
