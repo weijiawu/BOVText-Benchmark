@@ -161,7 +161,7 @@ Suggestions and opinions of this dataset (both positive and negative) are greatl
 `weijiawu@zju.edu.cn`.
 
 ## License and Copyright
-The project is open source under BSD-3 license (see the ``` LICENSE ``` file).
+The project is open source under CC-by 4.0 license (see the ``` LICENSE ``` file).
 
 Only for research purpose usage, it is not allowed for commercial purpose usage.
 
