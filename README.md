@@ -165,6 +165,8 @@ The project is open source under CC-by 4.0 license (see the ``` LICENSE ``` file
 
 Only for research purpose usage, it is not allowed for commercial purpose usage.
 
+while we tried to identify video that are licensed under a Creative Commons Attribution license, we make no representations or warranties regarding the license status of each video and you should verify the license for each image yourself.
+
 ## References
 
 [1] Dendorfer, P., Rezatofighi, H., Milan, A., Shi, J., Cremers, D., Reid, I., Roth, S., Schindler, K., & Leal-Taixe, L. (2019). CVPR19 Tracking and Detection Challenge: How crowded can it get?. arXiv preprint arXiv:1906.04567.
