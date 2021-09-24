@@ -3,7 +3,7 @@
 </div>
 
 
-MOVText: A Large-Scale, **M**ultilingual **O**pen World Dataset for **V**ideo Text Spotting
+BOVText: A Large-Scale, **B**ilingual **O**pen World Dataset for **V**ideo Text Spotting
 
 
 Updated on June 06, 2021 (Added evaluation metric)
@@ -19,19 +19,19 @@ Released on May 26, 2021
 (Note: a small part(46 videos) of training set can be found in [Baidu Cloud](https://pan.baidu.com/s/1wJDVS_fSqP0jXnVFYP4TxQ)
 password: woa8) for reference, the whole dataset is currently under merging and would be released before October 15.)
 
-We create a new large-scale benchmark dataset named **M**ultilingual, **O**pen World **V**ideo Text(MOVText), the first large-scale and multilingual benchmark for video text spotting in a variety of scenarios.
+We create a new large-scale benchmark dataset named **B**ilingual, **O**pen World **V**ideo Text(BOVText), the first large-scale and multilingual benchmark for video text spotting in a variety of scenarios.
 All data are collected from [KuaiShou](https://www.kuaishou.com/en) and [YouTube](https://www.youtube.com/)
 
-There are mainly three features for MOVText:
+There are mainly three features for BOVText:
 -  **Large-Scale**: we provide 1,500+ videos with more than 1,500,000 frame images, four times larger than the existing largest dataset for text in videos. 
--  **Open Scenario**:MOVText covers 30+ open categories with a wide selection of various scenarios, e.g., life vlog, sports news, automatic drive, cartoon, etc. Besides, caption text and scene text are separately tagged for the two different representational meanings in the video. The former represents more theme information, and the latter is the scene information. 
--  **Multilingual**:MOVText provides multilingual text annotation to promote multiple cultures live and communication.
+-  **Open Scenario**:BOVText covers 30+ open categories with a wide selection of various scenarios, e.g., life vlog, sports news, automatic drive, cartoon, etc. Besides, caption text and scene text are separately tagged for the two different representational meanings in the video. The former represents more theme information, and the latter is the scene information. 
+-  **Multilingual**:BOVText provides multilingual text annotation to promote multiple cultures live and communication.
 <img src="Dataset/image/fig1.png" width="100%" class="aligncenter">
 
 ## News
 
 ## Tasks and Metrics
-The proposed MOVText support four task(text detection, recognition, tracking, spotting), but mainly includes two tasks: 
+The proposed BOVText support four task(text detection, recognition, tracking, spotting), but mainly includes two tasks: 
 -  Video Frames Detection. 
 -  Video Frames Recognition. 
 -  Video Text Tracking. 
