@@ -25,7 +25,7 @@ All data are collected from [KuaiShou](https://www.kuaishou.com/en) and [YouTube
 There are mainly three features for BOVText:
 -  **Large-Scale**: we provide 1,500+ videos with more than 1,500,000 frame images, four times larger than the existing largest dataset for text in videos. 
 -  **Open Scenario**:BOVText covers 30+ open categories with a wide selection of various scenarios, e.g., life vlog, sports news, automatic drive, cartoon, etc. Besides, caption text and scene text are separately tagged for the two different representational meanings in the video. The former represents more theme information, and the latter is the scene information. 
--  **Multilingual**:BOVText provides multilingual text annotation to promote multiple cultures live and communication.
+-  **Bilingual**:BOVText provides Bilingual text annotation to promote multiple cultures live and communication.
 <img src="Dataset/image/fig1.png" width="100%" class="aligncenter">
 
 ## News
