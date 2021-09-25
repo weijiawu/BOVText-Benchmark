@@ -148,6 +148,10 @@ Training data and the test set can be found from Baidu Drive(TDB) or Google Driv
 
 ## Maintenance Plan and Goal
 
+More video-and-language tasks will be supported in our dataset:
+- [ ] Text-based Video Retrieval[5] (Around before March,2022)
+- [ ] Text-based Video Caption[6] (Around before September,2022)
+- [ ] Text-based VQA[7][8] (TED)
  
 
 
@@ -162,6 +166,10 @@ Training data and the test set can be found from Baidu Drive(TDB) or Google Driv
 
 
 ## Feedback
+Lead Organisers: 
+Weijia Wu is a PhD student in Zhejiang University(ZJU) since 2018.
+Debing Zhang is the leader in Intelligence Creation Group, MMU of Kuaishou Technology.
+
 Suggestions and opinions of this dataset (both positive and negative) are greatly welcome. Please contact the authors by sending email to
 `weijiawu@zju.edu.cn`.
 
@@ -170,8 +178,10 @@ The project is open source under CC-by 4.0 license (see the ``` LICENSE ``` file
 
 Only for research purpose usage, it is not allowed for commercial purpose usage.
 
-while we tried to identify video that are licensed under a Creative Commons Attribution license, we make no representations or warranties regarding the license status of each video and you should verify the license for each image yourself.
+The videos were partially downloaded from YouTube and some may be subject to copyright. We don't own the copyright of those videos and only provide them for non-commercial research purposes only.
+For each video from YouTube, while we tried to identify video that are licensed under a Creative Commons Attribution license, we make no representations or warranties regarding the license status of each video and you should verify the license for each image yourself.
 
+Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/).
 ## References
 
 [1] Dendorfer, P., Rezatofighi, H., Milan, A., Shi, J., Cremers, D., Reid, I., Roth, S., Schindler, K., & Leal-Taixe, L. (2019). CVPR19 Tracking and Detection Challenge: How crowded can it get?. arXiv preprint arXiv:1906.04567.
@@ -182,5 +192,10 @@ while we tried to identify video that are licensed under a Creative Commons Attr
 
 [4] Li, Y., Huang, C. &amp; Nevatia, R. Learning to associate: HybridBoosted multi-target tracker for crowded scene. In Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition, 2009.
 
+[5] Anand Mishra, Karteek Alahari, and CV Jawahar. Image retrieval using textual cues. In Proceedings of the IEEE International Conference on Computer Vision, pages 3040–3047, 2013.
 
+[6] Oleksii Sidorov, Ronghang Hu, Marcus Rohrbach, and Amanpreet Singh. Textcaps: a dataset for image captioning with reading comprehension. In European Conference on Computer Vision, pages 742–758. Springer, 2020.
 
+[7] Minesh Mathew, Dimosthenis Karatzas, C. V. Jawahar, "DocVQA: A Dataset for VQA on Document Images", arXiv:2007.00398 [cs.CV], WACV 2021
+
+[8] Minesh Mathew, Ruben Tito, Dimosthenis Karatzas, R. Manmatha, C.V. Jawahar, "Document Visual Question Answering Challenge 2020", arXiv:2008.08899 [cs.CV], DAS 2020 
