@@ -146,11 +146,16 @@ Training data and the test set can be found from Baidu Drive(TDB) or Google Driv
     </tbody>
 </table>
 
+## Maintenance Plan and Goal
+
+ 
+
+
 ## TodoList
 - [x] update evaluation metric
 - [ ] update data and annotation link
 - [ ] update evaluation guidance
-- [ ] update Baseline
+- [x] update Baseline([TransVTSpotter](https://github.com/weijiawu/TransVTSpotter))
 - [ ] ...
 
 ## Citation
