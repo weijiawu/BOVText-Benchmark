@@ -169,11 +169,17 @@ More video-and-language tasks will be supported in our dataset:
 
 ## Citation
 
+## Organization
+
+Affiliations: [Zhejiang University](https://www.zju.edu.cn/english/), [MMU of Kuaishou Technology](https://www.kuaishou.com/en)
+
+Authors: Hanjiang Hu, Baoquan Yang, Zhijian Qiao, Ding Zhao, Hesheng Wang 
+Weijia Wu(Zhejiang University)
+[Debing Zhang](https://scholar.google.com/citations?user=4nL1cDEAAAAJ&hl=en)(Kuaishou Technology)
+
+
 
 ## Feedback
-Lead Organisers: 
-Weijia Wu is a PhD student in Zhejiang University(ZJU) since 2018.
-Debing Zhang is the leader in Intelligence Creation Group, MMU of Kuaishou Technology.
 
 Suggestions and opinions of this dataset (both positive and negative) are greatly welcome. Please contact the authors by sending email to
 `weijiawu@zju.edu.cn`.
