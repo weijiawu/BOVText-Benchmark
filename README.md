@@ -149,9 +149,9 @@ Training data and the test set can be found from Baidu Drive(TDB) or Google Driv
 ## Maintenance Plan and Goal
 The author will plays an active participant in the video text field and maintaining the dataset at least before 2023 years.
 And the maintenance plan as the following: 
-1) Merging and releasing the whole dataset after further review. (Around before November, 2021)
-2) Updating evaluation guidance and script code for four tasks(detection, tracking, recognition, and spotting). (Around before November, 2021)
-3) Hosting a competition concerning our work for promotional and publicity. (Around before March,2022)
+[ ] Merging and releasing the whole dataset after further review. (Around before November, 2021)
+[ ] Updating evaluation guidance and script code for four tasks(detection, tracking, recognition, and spotting). (Around before November, 2021)
+[ ] Hosting a competition concerning our work for promotional and publicity. (Around before March,2022)
 
 More video-and-language tasks will be supported in our dataset:
 - [ ] Text-based Video Retrieval[5] (Around before March,2022)
