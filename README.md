@@ -173,9 +173,7 @@ More video-and-language tasks will be supported in our dataset:
 
 Affiliations: [Zhejiang University](https://www.zju.edu.cn/english/), [MMU of Kuaishou Technology](https://www.kuaishou.com/en)
 
-Authors: Hanjiang Hu, Baoquan Yang, Zhijian Qiao, Ding Zhao, Hesheng Wang 
-Weijia Wu(Zhejiang University)
-[Debing Zhang](https://scholar.google.com/citations?user=4nL1cDEAAAAJ&hl=en)(Kuaishou Technology)
+Authors: Weijia Wu(Zhejiang University), [Debing Zhang](https://scholar.google.com/citations?user=4nL1cDEAAAAJ&hl=en)(Kuaishou Technology)
 
 
 
