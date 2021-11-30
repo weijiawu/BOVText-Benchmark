@@ -169,6 +169,15 @@ More video-and-language tasks will be supported in our dataset:
 
 ## Citation
 
+```
+@article{wu2021opentext,
+  title={A Bilingual, OpenWorld Video Text Dataset and End-to-end Video Text Spotter with Transformer},
+  author={Weijia Wu, Debing Zhang, Yuanqiang Cai, Sibo Wang, Jiahong Li, Zhuang Li, Yejun Tang, Hong Zhou},
+  journal={35th Conference on Neural Information Processing Systems (NeurIPS 2021) Track on Datasets and Benchmarks},
+  year={2021}
+}
+```
+
 ## Organization
 
 Affiliations: [Zhejiang University](https://www.zju.edu.cn/english/), [MMU of Kuaishou Technology](https://www.kuaishou.com/en)
