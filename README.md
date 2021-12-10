@@ -5,6 +5,7 @@
 
 [BOVText: A Large-Scale, **B**ilingual **O**pen World Dataset for **V**ideo Text Spotting](https://arxiv.org/pdf/2112.04888.pdf)
 
+
 Updated on December 10, 2021 (Release all dataset(2021 videos))
 
 Updated on June 06, 2021 (Added evaluation metric)
@@ -27,7 +28,8 @@ There are mainly three features for BOVText:
 -  **Bilingual**:BOVText provides Bilingual text annotation to promote multiple cultures live and communication.
 <img src="Dataset/image/fig1.png" width="100%" class="aligncenter">
 
-## News
+
+
 
 ## Tasks and Metrics
 The proposed BOVText support four task(text detection, recognition, tracking, spotting), but mainly includes two tasks: 
@@ -146,6 +148,9 @@ In a JSON file, each gt_[frame_id] corresponds to a list, where each line in the
 Training data and the test set can be found from [Downloads(Google Drive)](https://drive.google.com/drive/folders/1wuZgmHQyeK4htJEF18rWZbeFkKk2M9dj?usp=sharing) [Downloads(Baidu Drive)](https://pan.baidu.com/s/1D6LdevEQdh9D9Tuhm0iqMg)(password:go10).
 
 ## Table Ranking
+
+**Important Announcements**: we expand the data size from 1,850 videos to 2,021 videos, causing the performance difference between arxiv paper and the NeurIPS version.
+Therefore, please refer to the latest arXiv paper, while existing ambiguity.
 
 <table>
     <thead align="center">
