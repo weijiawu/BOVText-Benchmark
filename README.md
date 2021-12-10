@@ -3,7 +3,7 @@
 </div>
 
 
-BOVText: A Large-Scale, **B**ilingual **O**pen World Dataset for **V**ideo Text Spotting
+[BOVText: A Large-Scale, **B**ilingual **O**pen World Dataset for **V**ideo Text Spotting](https://arxiv.org/pdf/2112.04888.pdf)
 
 Updated on December 10, 2021 (Release all dataset(2021 videos))
 
