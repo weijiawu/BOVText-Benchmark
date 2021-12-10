@@ -149,7 +149,7 @@ Training data and the test set can be found from [Downloads(Google Drive)](https
 
 ## Table Ranking
 
-**Important Announcements**: we expand the data size from 1,850 videos to 2,021 videos, causing the $\color{#FF0000}{performance difference}$ between arxiv paper and the NeurIPS version.
+**Important Announcements**: we expand the data size from 1,850 videos to 2,021 videos, causing the *performance difference* between arxiv paper and the NeurIPS version.
 Therefore, please refer to the latest arXiv paper, while existing ambiguity.
 
 <table>
