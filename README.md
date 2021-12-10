@@ -183,10 +183,6 @@ Training data and the test set can be found from [Downloads(Google Drive)](https
            <td>6.8</td>
 		   <td>-</td>
         </tr>
-
-    </tbody>
-	
-	<tbody align="center">
         <tr>
            <td><b><a href="https://arxiv.org/pdf/2112.04888.pdf">TransVTSpotter</a></b></td>
            <td>68.2</td>
