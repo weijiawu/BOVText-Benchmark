@@ -527,12 +527,14 @@ simple_add_func.append(num_fragmentations)
 def motp(df, num_detections):
     """Multiple object tracker precision."""
     if num_detections==0:
-        return 1.0
+        return 0.0
     return math_util.quiet_divide(df.noraw['D'].sum(), num_detections)
 
 
 def motp_m(partials, num_detections):
     res = 0
+    if num_detections==0:
+        return 0.0
     for v in partials:
         res += v['motp'] * v['num_detections']
     return math_util.quiet_divide(res, num_detections)
@@ -800,9 +802,9 @@ def create():
 #     m.register(precision_s, formatter='{:.1%}'.format)
 #     m.register(f_score, formatter='{:.1%}'.format)
     
-    m.register(rec_tp, formatter='{:d}'.format)
-    m.register(rec_fn, formatter='{:d}'.format)
-    m.register(rec_fp, formatter='{:d}'.format)
+#     m.register(rec_tp, formatter='{:d}'.format)
+#     m.register(rec_fn, formatter='{:d}'.format)
+#     m.register(rec_fp, formatter='{:d}'.format)
 
 
     m.register(id_global_assignment)
@@ -829,9 +831,9 @@ motchallenge_metrics = [
     'mostly_lost',
     'num_false_positives',
     'num_misses',
-    'rec_tp',
-    'rec_fn',
-    'rec_fp',
+#     'rec_tp',
+#     'rec_fn',
+#     'rec_fp',
     'num_switches',
     'num_fragmentations',
     'mota',

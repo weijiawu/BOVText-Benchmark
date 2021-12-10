@@ -5,6 +5,7 @@
 
 BOVText: A Large-Scale, **B**ilingual **O**pen World Dataset for **V**ideo Text Spotting
 
+Updated on December 10, 2021 (Release all dataset(2021 videos))
 
 Updated on June 06, 2021 (Added evaluation metric)
 
@@ -14,16 +15,14 @@ Released on May 26, 2021
 
 
 ## Description
-[YouTube Demo](https://www.youtube.com/watch?v=mS66yr1WmI4) | [Homepage](https://weijiawu.github.io/MMVText-Benchmark/)  |  Downloads(TED) | Paper(TED) 
+[YouTube Demo](https://www.youtube.com/watch?v=mS66yr1WmI4) | [Homepage](https://weijiawu.github.io/MMVText-Benchmark/)  |  [Downloads(Google Drive)](https://drive.google.com/drive/folders/1wuZgmHQyeK4htJEF18rWZbeFkKk2M9dj?usp=sharing) [Downloads(Baidu Drive)](https://pan.baidu.com/s/1D6LdevEQdh9D9Tuhm0iqMg)(password:go10) | [Paper](https://arxiv.org/abs/2112.04888) 
 
-(Note: a small part(46 videos) of training set can be found in [Baidu Cloud](https://pan.baidu.com/s/1wJDVS_fSqP0jXnVFYP4TxQ)
-password: woa8) for reference, the whole dataset is currently under merging and would be released around November.)
 
 We create a new large-scale benchmark dataset named **B**ilingual, **O**pen World **V**ideo Text(BOVText), the first large-scale and multilingual benchmark for video text spotting in a variety of scenarios.
 All data are collected from [KuaiShou](https://www.kuaishou.com/en) and [YouTube](https://www.youtube.com/)
 
 There are mainly three features for BOVText:
--  **Large-Scale**: we provide 1,500+ videos with more than 1,500,000 frame images, four times larger than the existing largest dataset for text in videos. 
+-  **Large-Scale**: we provide 2,000+ videos with more than 1,750,000 frame images, four times larger than the existing largest dataset for text in videos. 
 -  **Open Scenario**:BOVText covers 30+ open categories with a wide selection of various scenarios, e.g., life vlog, sports news, automatic drive, cartoon, etc. Besides, caption text and scene text are separately tagged for the two different representational meanings in the video. The former represents more theme information, and the latter is the scene information. 
 -  **Bilingual**:BOVText provides Bilingual text annotation to promote multiple cultures live and communication.
 <img src="Dataset/image/fig1.png" width="100%" class="aligncenter">
@@ -43,9 +42,43 @@ In particular, we make use of the publicly available py-motmetrics library (http
 Word recognition evaluation is case-insensitive, and accent-insensitive. 
 The transcription '###' or "#1" is special, as it is used to define text areas that are unreadable. During the evaluation, such areas will not be taken into account: a method will not be penalised if it does not detect these words, while a method that detects them will not get any better score.
 
-The evluation guidance coming soon. Wait for a moment, please.
+### Task 3 for Text Tracking Evaluation
+The objective of this task is to obtain the location of words in the video in terms of their affine bounding boxes. The task requires that words are both localised correctly in every frame and tracked correctly over the video sequence.
+Please output the json file as following:
+```
+Output
+.
+├-Cls10_Program_Cls10_Program_video11.json
+│-Cls10_Program_Cls10_Program_video12.json
+│-Cls10_Program_Cls10_Program_video13.json
+├-Cls10_Program_Cls10_Program_video14.json
+│-Cls10_Program_Cls10_Program_video15.json
+│-Cls10_Program_Cls10_Program_video16.json
+│-Cls11_Movie_Cls11_Movie_video17.json
+│-Cls11_Movie_Cls11_Movie_video18.json
+│-Cls11_Movie_Cls11_Movie_video19.json
+│-Cls11_Movie_Cls11_Movie_video20.json
+│-Cls11_Movie_Cls11_Movie_video21.json
+│-...
 
 
+```
+And then ```cd Evaluation_Protocol/Task1_VideoTextTracking```,
+run following script:
+```
+python evaluation.py --groundtruths ./Test/Annotation --tests ./output
+
+```
+
+### Task 4 for Text Spotting Evaluation
+Please output the json file like task 3.
+
+```cd Evaluation_Protocol/Task2_VideoTextSpotting```,
+run following script:
+```
+python evaluation.py --groundtruths ./Test/Annotation --tests ./output
+
+```
 
 ## Ground Truth (GT) Format and Downloads
 
@@ -63,7 +96,9 @@ In a JSON file, each gt_[frame_id] corresponds to a list, where each line in the
 				"points": [x1, y1, x2, y2, x3, y3, x4, y4],
 				“tracking ID”: "1" ,
 				“transcription”: "###",
-				“category”: title/caption/scene text
+				“category”: title/caption/scene text,
+				“language”: Chinese/English,
+				“ID_transcription“:  complete words for the whole trajectory
 			},
 
                …
@@ -72,7 +107,9 @@ In a JSON file, each gt_[frame_id] corresponds to a list, where each line in the
 				"points": [x1, y1, x2, y2, x3, y3, x4, y4],
 				“tracking ID”: "#" ,
 				“transcription”: "###",
-				“category”: title/caption/scene text
+				“category”: title/caption/scene text,
+				“language”: Chinese/English,
+				“ID_transcription“:  complete words for the whole trajectory
 			}
 			],
 
@@ -82,7 +119,9 @@ In a JSON file, each gt_[frame_id] corresponds to a list, where each line in the
 				"points": [x1, y1, x2, y2, x3, y3, x4, y4],
 				“tracking ID”: "1" ,
 				“transcription”: "###",
-				“category”: title/caption/scene text
+				“category”: title/caption/scene text,
+				“language”: Chinese/English,
+				“ID_transcription“:  complete words for the whole trajectory
 			},
 
                …
@@ -91,7 +130,9 @@ In a JSON file, each gt_[frame_id] corresponds to a list, where each line in the
 				"points": [x1, y1, x2, y2, x3, y3, x4, y4],
 				“tracking ID”: "#" ,
 				“transcription”: "###",
-				“category”: title/caption/scene text
+				“category”: title/caption/scene text,
+				“language”: Chinese/English,
+				“ID_transcription“:  complete words for the whole trajectory
 			}
 			],
 
@@ -102,7 +143,7 @@ In a JSON file, each gt_[frame_id] corresponds to a list, where each line in the
 
 
 ### Downloads
-Training data and the test set can be found from Baidu Drive(TDB) or Google Drive(TDB). (coming soon ...)
+Training data and the test set can be found from [Downloads(Google Drive)](https://drive.google.com/drive/folders/1wuZgmHQyeK4htJEF18rWZbeFkKk2M9dj?usp=sharing) [Downloads(Baidu Drive)](https://pan.baidu.com/s/1D6LdevEQdh9D9Tuhm0iqMg)(password:go10).
 
 ## Table Ranking
 
@@ -110,8 +151,8 @@ Training data and the test set can be found from Baidu Drive(TDB) or Google Driv
     <thead align="center">
        <tr>
            <th rowspan=2>Method</th>
-		   <th colspan=5>Text Tracking Performance</th>
-		   <th colspan=5>End to End Video Text Spotting</th>
+		   <th colspan=5>Text Tracking Performance/%</th>
+		   <th colspan=5>End to End Video Text Spotting/%</th>
            <th rowspan=2>Published at</th>
         </tr>
         <tr>
@@ -130,27 +171,46 @@ Training data and the test set can be found from Baidu Drive(TDB) or Google Driv
     <tbody align="center">
         <tr>
            <td><b><a href="https://openaccess.thecvf.com/content_cvpr_2017/html/Zhou_EAST_An_Efficient_CVPR_2017_paper.html">EAST</a></b>+<b><a href="https://ieeexplore.ieee.org/abstract/document/7801919">CRNN</a></b></td>
-           <td>-0.301</td>
-           <td>0.275</td>
-           <td>23.5</td>
-           <td>22.9</td>
-           <td>23.2</td>
-           <td>-0.835</td>
-           <td>0.173</td>
-           <td>5.3%</td>
-           <td>5.1%</td>
-           <td>5.2%</td>
+           <td>-21.6</td>
+           <td>75.8</td>
+           <td>29.9</td>
+           <td>26.5</td>
+           <td>28.1</td>
+           <td>-79.3</td>
+           <td>76.3</td>
+           <td>6.8</td>
+           <td>6.9</td>
+           <td>6.8</td>
 		   <td>-</td>
         </tr>
 
     </tbody>
+	
+	<tbody align="center">
+        <tr>
+           <td><b><a href="https://arxiv.org/pdf/2112.04888.pdf">TransVTSpotter</a></b></td>
+           <td>68.2</td>
+           <td>82.1</td>
+           <td>71.0</td>
+           <td>59.7</td>
+           <td>64.7</td>
+           <td>-1.4</td>
+           <td>82.0</td>
+           <td>43.6</td>
+           <td>38.4</td>
+           <td>40.8</td>
+		   <td>-</td>
+        </tr>
+
+    </tbody>
+	
 </table>
 
 ## Maintenance Plan and Goal
 The author will plays an active participant in the video text field and maintaining the dataset at least before 2023 years.
 And the maintenance plan as the following: 
-- [ ] Merging and releasing the whole dataset after further review. (Around before November, 2021)
-- [ ] Updating evaluation guidance and script code for four tasks(detection, tracking, recognition, and spotting). (Around before November, 2021)
+- [x] Merging and releasing the whole dataset after further review. (Around before November, 2021)
+- [x] Updating evaluation guidance and script code for four tasks(detection, tracking, recognition, and spotting). (Around before November, 2021)
 - [ ] Hosting a competition concerning our work for promotional and publicity. (Around before March,2022)
 
 More video-and-language tasks will be supported in our dataset:
@@ -162,8 +222,8 @@ More video-and-language tasks will be supported in our dataset:
 
 ## TodoList
 - [x] update evaluation metric
-- [ ] update data and annotation link
-- [ ] update evaluation guidance
+- [x] update data and annotation link
+- [x] update evaluation guidance
 - [x] update Baseline([TransVTSpotter](https://github.com/weijiawu/TransVTSpotter))
 - [ ] ...
 
