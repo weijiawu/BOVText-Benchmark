@@ -16,7 +16,7 @@ Released on May 26, 2021
 
 
 ## Description
-[YouTube Demo](https://www.youtube.com/watch?v=mS66yr1WmI4) | [Homepage](https://weijiawu.github.io/MMVText-Benchmark/)  |  [Downloads(Google Drive)](https://drive.google.com/drive/folders/1wuZgmHQyeK4htJEF18rWZbeFkKk2M9dj?usp=sharing) [Downloads(Baidu Drive)](https://pan.baidu.com/s/1D6LdevEQdh9D9Tuhm0iqMg)(password:go10) | [Paper](https://arxiv.org/abs/2112.04888) 
+[YouTube Demo](https://www.youtube.com/watch?v=mS66yr1WmI4) | [Homepage](https://weijiawu.github.io/MMVText-Benchmark/)  | [Paper](https://arxiv.org/abs/2112.04888) 
 
 
 We create a new large-scale benchmark dataset named **B**ilingual, **O**pen World **V**ideo Text(BOVText), the first large-scale and multilingual benchmark for video text spotting in a variety of scenarios.
@@ -145,7 +145,11 @@ In a JSON file, each gt_[frame_id] corresponds to a list, where each line in the
 
 
 ### Downloads
-Training data and the test set can be found from [Downloads(Google Drive)](https://drive.google.com/drive/folders/1wuZgmHQyeK4htJEF18rWZbeFkKk2M9dj?usp=sharing) [Downloads(Baidu Drive)](https://pan.baidu.com/s/1D6LdevEQdh9D9Tuhm0iqMg)(password:go10).
+ 
+- The BOVText dataset is available for **non-commercial research purposes only**.
+- Please download the agreement and read it carefully.
+- Please ask your supervisor/advisor to sign the agreement appropriately and then send the scanned version (example) to Weijia Wu (weijiawu@zju.edu.cn).
+- After verifying your request, we will contact you with the dataset download link.
 
 ## Table Ranking
 
