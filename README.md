@@ -147,7 +147,7 @@ In a JSON file, each gt_[frame_id] corresponds to a list, where each line in the
 ### Downloads
  
 - The BOVText dataset is available for **non-commercial research purposes only**.
-- Please download the agreement and read it carefully.
+- Please download the [agreement](https://github.com/weijiawu/BOVText-Benchmark/tree/main/Dataset/bovtext_agreement.pdf) and read it carefully.
 - Please ask your supervisor/advisor to sign the agreement appropriately and then send the scanned version (example) to Weijia Wu (weijiawu@zju.edu.cn).
 - After verifying your request, we will contact you with the dataset download link.
 
