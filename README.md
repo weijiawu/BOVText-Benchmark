@@ -16,7 +16,7 @@ Released on May 26, 2021
 
 
 ## Description
-[YouTube Demo](https://www.youtube.com/watch?v=mS66yr1WmI4) | [Homepage](https://weijiawu.github.io/MMVText-Benchmark/)  | [Paper](https://arxiv.org/abs/2112.04888) 
+[YouTube Demo](https://www.youtube.com/watch?v=mS66yr1WmI4) | [Homepage](https://weijiawu.github.io/BOVText-Benchmark/)  | [Paper](https://arxiv.org/abs/2112.04888) 
 
 
 We create a new large-scale benchmark dataset named **B**ilingual, **O**pen World **V**ideo Text(BOVText), the first large-scale and multilingual benchmark for video text spotting in a variety of scenarios.
@@ -220,7 +220,7 @@ And the maintenance plan as the following:
 
 More video-and-language tasks will be supported in our dataset:
 - [ ] Text-based Video Retrieval[5] (Around before March,2022)
-- [ ] Text-based Video Caption[6] (Around before September,2022)
+- [ ] Text-based Video Caption[6] (Around before September,2023)
 - [ ] Text-based VQA[7][8] (TED)
  
 
