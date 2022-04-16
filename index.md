@@ -1,6 +1,6 @@
 
 
-[YouTube Demo](https://www.youtube.com/watch?v=mS66yr1WmI4) | [Homepage](https://weijiawu.github.io/BOVText-Benchmark/)  |  [Github](https://github.com/weijiawu/BOVText-Benchmark) | Downloads(https://github.com/weijiawu/BOVText-Benchmark) | Paper(https://arxiv.org/abs/2112.04888) 
+[YouTube Demo](https://www.youtube.com/watch?v=mS66yr1WmI4) | [Homepage](https://weijiawu.github.io/BOVText-Benchmark/)  |  [Github](https://github.com/weijiawu/BOVText-Benchmark) | [Downloads](https://github.com/weijiawu/BOVText-Benchmark) | [Paper](https://arxiv.org/abs/2112.04888) 
 
 BOVText: A Large-Scale, Bilingual Open World Dataset for Video Text Spotting
 
