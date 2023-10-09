@@ -148,7 +148,7 @@ In a JSON file, each gt_[frame_id] corresponds to a list, where each line in the
  
 - The BOVText dataset is available for **non-commercial research purposes only**.
 - Please download the [agreement](https://github.com/weijiawu/BOVText-Benchmark/tree/main/Dataset/bovtext_agreement.pdf) and read it carefully.
-- Please ask your supervisor/advisor to sign the agreement appropriately and then send the scanned version (example) to Weijia Wu (weijiawu@zju.edu.cn).
+- Please ask your supervisor/advisor to sign the agreement appropriately and then send the scanned version (example) to Weijia Wu (weijiawu98@gmail.com).
 - After verifying your request, we will contact you with the dataset download link.
 
 ## Table Ranking
@@ -254,15 +254,15 @@ Authors: Weijia Wu(Zhejiang University), [Debing Zhang](https://scholar.google.c
 ## Feedback
 
 Suggestions and opinions of this dataset (both positive and negative) are greatly welcome. Please contact the authors by sending email to
-`weijiawu@zju.edu.cn`.
+`weijiawu96@gmail.com`.
 
 ## License and Copyright
 The project is open source under CC-by 4.0 license (see the ``` LICENSE ``` file).
 
 Only for research purpose usage, it is not allowed for commercial purpose usage.
 
-The videos were partially downloaded from YouTube and some may be subject to copyright. We don't own the copyright of those videos and only provide them for non-commercial research purposes only.
-For each video from YouTube, while we tried to identify video that are licensed under a Creative Commons Attribution license, we make no representations or warranties regarding the license status of each video and you should verify the license for each image yourself.
+The videos were partially downloaded from internet videos and some may be subject to copyright. We don't own the copyright of those videos and only provide them for non-commercial research purposes only.
+For each video from internet videos, while we tried to identify video that are licensed under a Creative Commons Attribution license, we make no representations or warranties regarding the license status of each video and you should verify the license for each image yourself.
 
 Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/).
 ## References
